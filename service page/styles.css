@@ -1,0 +1,17 @@
+.home {
+  background-color: #232536;
+}
+.home__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.home__navbar-menu {
+  display: flex;
+  gap: 32px;
+  list-style-type: none;
+  color: white;
+}
+.home__items {
+  filter: brightness(60%);
+}/*# sourceMappingURL=styles.css.map */
