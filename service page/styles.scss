@@ -1,5 +1,19 @@
+$main-color: #232536;
+$main-width-wrap-text: 624px;
+$img-width: 515px;
+$img-twi-width: 516px;
+$fon-size-text: 16px;
+$fon-size-title: 36px;
+$font-size-sup-title: 24px;
+$process-font-size: 14px;
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: "Poppins";
+}
 .home {
-  background-color: #232536;
+  background-color: $main-color;
   &__wrapper {
     display: flex;
     align-items: center;
@@ -11,7 +25,145 @@
     list-style-type: none;
     color: white;
   }
-&__items{
+  &__items {
     filter: brightness(60%);
+  }
 }
+.hero {
+  background-color: #ffe6d2;
+  &__wrapper {
+    width: 624px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 96px;
+    margin-bottom: 96px;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__sup-title {
+    font-size: 14px;
+    color: $main-color;
+    margin-bottom: 0;
+    font-style: bold;
+  }
+  &__title {
+    width: 600px;
+    font-size: $main-color;
+    font-size: 48px;
+    margin-top: 0;
+  }
+  &__text {
+    width: 624px;
+    font-size: 16px;
+    color: $main-color;
+    margin-top: 0;
+  }
+  &__button {
+    width: 231px;
+    height: 64px;
+    background: linear-gradient(#444cfc, #444cfc);
+    position: relative;
+    border: none;
+    font-size: 16px;
+    color: white;
+  }
+  &__img {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 29px;
+  }
+  &__menu {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+  }
+  .item {
+    margin-top: 17px;
+  }
+}
+.sup-title {
+  font-size: $font-size-sup-title;
+  color: $main-color;
+}
+.title {
+  font-size: $fon-size-title;
+  color: $main-color;
+}
+.text {
+  font-size: $fon-size-text;
+  color: $main-color;
+}
+.wrap-text {
+  width: $main-width-wrap-text;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 96px;
+}
+.develop {
+  background-color: #ecf8f9;
+}
+.consulting {
+  background-color: #f9f9ff;
+}
+.develop,
+.tech,
+.design,
+.consulting,
+.informition {
+  padding-bottom: 96px;
+}
+.process {
+  &__wrapper {
+    position: relative;
+  }
+  &__wrap-text {
+    width: 1280px;
+  }
+  &__sup-title {
+    font-size: 14px;
+    color: $main-color;
+  }
+  &__title {
+    width: 733px;
+    font-size: 48px;
+    color: $main-color;
+  }
+  &__text {
+    width: 642px;
+    font-size: 16px;
+    color: $main-color;
+  }
+  &__img {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+  }
+  &__wrap,
+  &__wrap-two,
+  &__wrap-three,
+  &__wrap-four,
+  &__wrap-five,
+  &__wrap-six {
+    display: flex;
+    gap: 10px;
+    width: 395px;
+    height: 164px;
+    border: 0.1px solid #2325362b;
+    border-right-style: dashed;
+  }
+  &-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+  }
+  &__wrap-top{
+    margin: 0;
+  }
 }

@@ -7,7 +7,16 @@
     <title>Finsweet Agency</title>
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="../imgs/index.html">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div class="home">
@@ -17,11 +26,21 @@
                         <img src="../imgs/Logo (5).png" alt="">
                         <ul class="home__navbar-menu">
                             <li><a href="#"></a>Home</li>
-                            <li><a href="#"></a><span class="items">Service</span> </li>
-                            <li><a href="#"></a><span class="items">Company</span> </li>
-                            <li><a href="#"></a><span class="items">Career</span> </li>
-                            <li><a href="#"></a><span class="items">Blog</span></li>
-                            <li><a href="#"></a><span class="items">Contact Us</span></li>
+                            <li><a href="#"></a>
+                                <div class="items">Service</div>
+                            </li>
+                            <li><a href="#"></a>
+                                <div class="items">Company</div>
+                            </li>
+                            <li><a href="#"></a>
+                                <div class="items">Career</div>
+                            </li>
+                            <li><a href="#"></a>
+                                <div class="items">Blog</div>
+                            </li>
+                            <li><a href="#"></a>
+                                <div class="items">Contact Us</div>
+                            </li>
                             <li><a href="#"></a>Clone project</li>
                         </ul>
                     </div>
@@ -29,157 +48,216 @@
             </div>
         </div>
     </header>
-    <section>
-        <div class="hero">
-            <div class="conatiner">
+    <section class="hero">
+        <div class="conatiner">
+            <div class="hero__container">
                 <div class="hero__wrapper">
                     <div class="hero__wrap-text">
-                        <sup class="hero__sup-title">Our Services</sup>
-                        <h1 class="hero__title">We Build Software Solutionthat Solve Clients Business Challenges</h1>
-                        <p class="hero__text">Through True Rich Attended does no end it his mother since favourable real
+                        <sub class="hero__sup-title">Our Services</sub>
+                        <h1 class="hero__title">We Build Software Solutionthat Solve Clients Business Challenges
+                        </h1>
+                        <p class="hero__text">Through True Rich Attended does no end it his mother since favourable
+                            real
                             had half every him case in packages enquire we up ecstatic.</p>
-                        <button class="hero__button">Request A Quote
-                            <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.75"
-                                    stroke-linecap="round" stroke-linejoin="round"
-                                    class="lucide lucide-move-right-icon lucide-move-right">
-                                    <path d="M18 8L22 12L18 16" />
-                                    <path d="M2 12H22" />
-                                </svg></div>
+                        <button class="hero__button">Request A Quote <i class="fa-solid fa-arrow-right"
+                                style="color: #ffffff;"></i>
+                            <img src="../imgs/Shapes.png" alt="" class="hero__img">
                         </button>
                     </div>
-                    <div class="hero__menu">
-                        <div class="hero__items-wrapper">
-                            <div class="item">Technical support</div>
-                            <div class="item">Development
-                                <div class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="0.75" stroke-linecap="round"
-                                        stroke-linejoin="round" class="lucide lucide-move-right-icon lucide-move-right">
-                                        <path d="M18 8L22 12L18 16" />
-                                        <path d="M2 12H22" />
-                                    </svg>
-                                </div>
-                            </div>
-                            <div class="item">AWS/Azure</div>
-                            <div class="item">Consulting</div>
-                            <div class="item">Information Technology</div>
+                </div>
+                <div class="hero__menu">
+                    <div class="hero__items-wrapper">
+                        <div class="item"><b>Technical support</b> </div>
+                        <div class="item"><b>Development</b>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="0.75" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-move-right-icon lucide-move-right">
+                                <path d="M18 8L22 12L18 16" />
+                                <path d="M2 12H22" />
+                            </svg>
                         </div>
+                        <div class="item"><b>AWS/Azure </b> </div>
+                        <div class="item"><b>Consulting </b> </div>
+                        <div class="item"><b>Information Technology </b> </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
-    <article class="approach">
+    <article class="process">
         <div class="container">
-            <div class="approach__wrapper">
-                <div class="approach__text-wrap">
-                    <sup class="approach__sup-title">Our Process</sup>
-                    <h1 class="approach__title">The process we are working With Our client Worldwide</h1>
-                    <p class="approach__text">
-                        Through True Rich Attended does no end it his mother since real had half every him case in
-                        packages enquire we up ecstatic unsatiable.
-                    </p>
+            <div class="process__wrapper">
+                <div class="process__wrap-text">
+                    <sup class="process__sup-title">Our Process </sup>
+                    <h2 class="process__title">The process we are working With Our client Worldwide</h2>
+                    <p class="process__text">Through True Rich Attended does no end it his mother since real had half
+                        every him case in packages enquire we up ecstatic unsatiable.</p>
                 </div>
-                <div class="approach__cards">
-                    <div class="approach__cards-wrapper">
-                        <div class="approach__cards-item">
-                            <sup class="approach__cards-sup-title"><img src="../imgs/01.png" alt=""></sup>
-                            <div class="approach__cards-text-wrap">
-                                <img src="../imgs/Icon Div.png" alt="">
-                                <div class="approach__text-wrap">
-                                    <h4 class="approach__cards-title">Designing</h4>
-                                    <p class="approach__cards-text">We aim to attain the greatest satisfaction for our
-                                        clients and be one of the prominent.</p>
-                                </div>
-                            </div>
-                            <img src="../imgs/Shapes 1.png" alt="">
-                        </div>
+                <img src="../imgs/Shapes (1).png" alt="" class="process__img">
+            </div>
+            <div class="process-container">
+
+                <div class="process__wrap">
+                    <div class="process__img">
+                        <img src="../imgs/Icon Div.png" alt="">
                     </div>
-                </div>
-                <div class="approach__cards">
-                    <div class="approach__cards-wrapper">
-                        <div class="approach__cards-item">
-                            <sup class="approach__cards-sup-title"><img src="../imgs/02.png" alt=""></sup>
-                            <div class="approach__cards-text-wrap">
-                                <img src="../imgs/Icon Div.png" alt="">
-                                <div class="approach__text-wrap">
-                                    <h4 class="approach__cards-title">Discover</h4>
-                                    <p class="approach__cards-text">We aim to attain the greatest satisfaction for our
-                                        clients and be one of the prominent.</p>
-                                </div>
-                            </div>
-                            <img src="../imgs/Shapes 1.png" alt="">
-                        </div>
+                    <div class="process-item">
+                        <h3 class="process-title">Discover</h3>
+                        <p class="process-description">We aim to attain the greatest satisfaction for our clients
+                            and be
+                            one
+                            of the prominent.</p>
                     </div>
+                    <span class="process-number"><img src="../imgs/01.png" alt=""></span>
                 </div>
-                <div class="approach__cards">
-                    <div class="approach__cards-wrapper">
-                        <div class="approach__cards-item">
-                            <sup class="approach__cards-sup-title"><img src="../imgs/03.png" alt=""></sup>
-                            <div class="approach__cards-text-wrap">
-                                <img src="../imgs/Icon Div.png" alt="">
-                                <div class="approach__text-wrap">
-                                    <h4 class="approach__cards-title">Discover</h4>
-                                    <p class="approach__cards-text">We aim to attain the greatest satisfaction for our
-                                        clients and be one of the prominent.</p>
-                                </div>
-                            </div>
-                            <img src="../imgs/Shapes 1.png" alt="">
-                        </div>
+
+                <div class="process__wrap-two">
+                    <div class="process__img">
+
+                        <img src="../imgs/Icon.png" alt="">
                     </div>
-                </div>
-                <div class="approach__cards">
-                    <div class="approach__cards-wrapper">
-                        <div class="approach__cards-item">
-                            <sup class="approach__cards-sup-title"><img src="../imgs/04.png" alt=""></sup>
-                            <div class="approach__cards-text-wrap">
-                                <img src="../imgs/Icon Div.png" alt="">
-                                <div class="approach__text-wrap">
-                                    <h4 class="approach__cards-title">Discover</h4>
-                                    <p class="approach__cards-text">We aim to attain the greatest satisfaction for our
-                                        clients and be one of the prominent.</p>
-                                </div>
-                            </div>
-                            <img src="../imgs/Shapes 1.png" alt="">
-                        </div>
+                    <div class="process-item">
+                        <h3 class="process-title">Designing</h3>
+                        <p class="process-description">We aim to attain the greatest satisfaction for our clients and be
+                            one
+                            of the prominent.</p>
                     </div>
+                    <span class="process-number"><img src="../imgs/02.png" alt=""></span>
                 </div>
-                <div class="approach__cards">
-                    <div class="approach__cards-wrapper">
-                        <div class="approach__cards-item">
-                            <sup class="approach__cards-sup-title"><img src="../imgs/05.png" alt=""></sup>
-                            <div class="approach__cards-text-wrap">
-                                <img src="../imgs/Icon Div.png" alt="">
-                                <div class="approach__text-wrap">
-                                    <h4 class="approach__cards-title">Discover</h4>
-                                    <p class="approach__cards-text">We aim to attain the greatest satisfaction for our
-                                        clients and be one of the prominent.</p>
-                                </div>
-                            </div>
-                            <img src="../imgs/Shapes 1.png" alt="">
-                        </div>
+                <div class="process__wrap-three">
+                    <div class="process__img">
+                        <img src="../imgs/Icon (1).png" alt="">
                     </div>
+                    <div class="process-item">
+                        <h3 class="process-title">Development</h3>
+                        <p class="process-description">We aim to attain the greatest satisfaction for our clients and be
+                            one
+                            of the prominent.</p>
+                    </div>
+                    <span class="process-number"><img src="../imgs/03.png" alt=""></span>
                 </div>
-                <div class="approach__cards">
-                    <div class="approach__cards-wrapper">
-                        <div class="approach__cards-item">
-                            <sup class="approach__cards-sup-title"><img src="../imgs/06.png" alt=""></sup>
-                            <div class="approach__cards-text-wrap">
-                                <img src="../imgs/Icon Div.png" alt="">
-                                <div class="approach__text-wrap">
-                                    <h4 class="approach__cards-title">Discover</h4>
-                                    <p class="approach__cards-text">We aim to attain the greatest satisfaction for our
-                                        clients and be one of the prominent.</p>
-                                </div>
-                            </div>
-                            <img src="../imgs/Shapes 1.png" alt="">
+                <div class="process__wrap-four">
+                    <div class="process-img">
+                        <img src="../imgs/Icon (2).png" alt="">
+                    </div>
+                    <div class="process-item">
+                        <h3 class="process-title">Testing</h3>
+                        <p class="process-description">We aim to attain the greatest satisfaction for our clients and be
+                            one
+                            of the prominent.</p>
+                    </div>
+                    <span class="process-number"><img src="../imgs/04.png" alt=""></span>
+                </div>
+                <div class="process__wrap-five">
+                    <div class="process-img">
+                        <img src="../imgs/Icon (3).png" alt="">
+                    </div>
+                    <div class="process-item">
+                        <h3 class="process-title">Deployment</h3>
+                        <p class="process-description">We aim to attain the greatest satisfaction for our clients and be
+                            one
+                            of the prominent.</p>
+                    </div>
+                    <span class="process-number"><img src="../imgs/05.png" alt=""></span>
+                </div>
+                <div class="process__wrap-top">
+                    <img src="../imgs/Shapes 1.png" alt="" class="process__img-top">
+                    <div class="process__wrap-six">
+                        <div class="porcess-img">
+                            <img src="../imgs/Icon (4).png" alt="">
                         </div>
+                        <div class="process-item">
+                            </span>
+                            <h3 class="process-title">Maintenance</h3>
+                            <p class="process-description">We aim to attain the greatest satisfaction for our clients
+                                and be
+                                one
+                                of the prominent.</p>
+                        </div>
+                        <span class="process-number"><img src="../imgs/06.png" alt="">
                     </div>
                 </div>
             </div>
-
+        </div>
     </article>
+    <section class="tech">
+        <div class="container">
+
+            <div class="wrapper">
+                <div class="wrap-text">
+                    <sup class="sup-title">Technical Support</sup>
+                    <h3 class="title">Best in class tech support for your company. We become your tech
+                        backbone
+                    </h3>
+                    <p class="text">Through True Rich Attended does no end it his mother since real had half
+                        every him case in packages enquire we up ecstatic unsatiable saw his giving Remain expense
+                        you position concluded. Through True Rich Attended does no end it his mother since real had
+                        half every.
+                    </p>
+                </div>
+                <img src="../imgs/Feature 1 Image.png" alt="">
+            </div>
+
+            <div class="develop">
+                <div class="wrapper">
+                    <img src="../imgs/Image.png" alt="">
+                    <div class="wrap-text">
+                        <sup class="sup-title">Development</sup>
+                        <h3 class="title">Bring your ideas to reality with certified team of developers,
+                            working with latest technologies</h3>
+                        <p class="text">Through True Rich Attended does no end it his mother since real had
+                            half every him case in packages enquire we up ecstatic unsatiable saw his giving Remain
+                            expense you position concluded. Through True Rich Attended does no end it his mother since
+                            real had half every.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="design">
+                <div class="wrapper">
+                    <div class="wrap-text">
+                        <sup class="sup-title">AWS/Azure</sup>
+                        <h3 class="title">We help you deploy, manage and secure your application on leading web
+                            services providers. </h3>
+                        <p class="text">Through True Rich Attended does no end it his mother since real had half
+                            every him case in packages enquire we up ecstatic unsatiable saw his giving Remain expense
+                            you position concluded. Through True Rich Attended does no end it his mother since real had
+                            half every.</p>
+                    </div>
+                    <img src="../imgs/Image (3).png" alt="">
+                </div>
+            </div>
+            <div class="consulting">
+                <div class="wrapper">
+                    <img src="../imgs/Image (1).png " alt="">
+                    <div class="wrap-text">
+                        <sup class="sup-title">Consulting</sup>
+                        <h3 class="title">Get advice from world class professionals</h3>
+                        <p class="text">Through True Rich Attended does no end it his mother since real had
+                            half every him case in packages enquire we up ecstatic unsatiable saw his giving Remain
+                            expense you position concluded. Through True Rich Attended does no end it his mother since
+                            real had half every.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="informition">
+                <div class="wrapper">
+                    <div class="wrap-text">
+                        <sup class="sup-title">Information Technology</sup>
+                        <h3 class="title">We want to get local identification in every corner of the world
+                            in this era of global citizenship.</h3>
+                        <p class="text">Through True Rich Attended does no end it his mother since real had
+                            half every him case in packages enquire we up ecstatic unsatiable saw his giving Remain
+                            expense you position concluded. Through True Rich Attended does no end it his mother since
+                            real had half every.</p>
+                    </div>
+                    <img src="../imgs/Image (2).png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- <article class=""></article> -->
 </body>
 
 </html>
