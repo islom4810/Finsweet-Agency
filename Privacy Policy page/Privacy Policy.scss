@@ -1,0 +1,60 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.home {
+  background-color: #232536;
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+  }
+  &__navbar-menu {
+    display: flex;
+    list-style-type: none;
+    gap: 52px;
+    color: white;
+  }
+
+}
+.sertifecat {
+  &__wrapper {
+    width: 1277px;
+    margin-top: 96px;
+  }
+  &__wrap-img {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    font-size: 48px;
+    color: #232536;
+    margin-bottom: 8px;
+  }
+  &__text {
+    font-size: 16px;
+    color: #232536;
+  }
+  &__card-wrapper {
+    margin-top: 72px;
+    background-color: #ecf8f9;
+    padding: 96px 221px;
+  }
+  &__card-title {
+    width: 819px;
+    font-size: 36px;
+    color: #232536;
+  }
+  &__card-text{
+    font-size: 16px;
+    color: #232536;
+  }
+  &__card-title-h{
+    font-size: 24px;
+    color: #232536;
+  }
+}
