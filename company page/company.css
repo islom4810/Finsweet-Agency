@@ -1,0 +1,227 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.home {
+  background-color: #232536;
+}
+.home__wrapper {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+}
+.home__navbar-menu {
+  display: flex;
+  list-style-type: none;
+  gap: 52px;
+  color: white;
+}
+
+.headline {
+  margin-top: 96px;
+}
+.headline__img {
+  display: flex;
+  justify-content: space-between;
+}
+.headline__sup-title {
+  font-size: 14px;
+  color: #000000;
+}
+.headline__title {
+  margin-top: 20px;
+  width: 600px;
+  font-size: 48px;
+  color: #232536;
+}
+.headline__text {
+  font-size: 16px;
+  color: #232536;
+  width: 719px;
+}
+
+.card-imgs {
+  display: flex;
+  gap: 12px;
+}
+.card-imgs__behind-img {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+.card-imgs-wrapper {
+  position: relative;
+}
+
+.story {
+  margin-top: 96px;
+}
+.story__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.story__cards {
+  width: 550px;
+}
+.story__card-two {
+  background-color: rgba(255, 211, 175, 0.568627451);
+  width: 624px;
+}
+.story__cards-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 400px;
+}
+.story__sup-title {
+  font-size: 16px;
+  color: #232536;
+}
+.story__title {
+  font-size: 36px;
+  color: #232536;
+}
+.story__text {
+  font-size: 16px;
+  color: #232536;
+}
+.story-card {
+  width: 138px;
+}
+
+.card-title {
+  font-size: 36px;
+  color: #232536;
+  margin-bottom: 8px;
+}
+.card-text {
+  font-size: 16px;
+  color: #232536;
+  margin: 0;
+}
+
+.logo__wrapper {
+  margin-top: 96px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.expertise {
+  margin-bottom: 96px;
+}
+.expertise__cards-wrapper {
+  background-color: #ecf8f9;
+  display: flex;
+  justify-content: center;
+}
+.expertise__card-wrapper {
+  width: 624px;
+}
+.expertise__sup-title {
+  font-size: 14px;
+  color: #000000;
+}
+.expertise__title {
+  width: 622px;
+  font-size: 48px;
+  color: #232536;
+}
+.expertise__card-title {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.expertise__card-text {
+  width: 303px;
+  font-size: 14px;
+  color: #5d5f6d;
+}
+.expertise__text {
+  font-size: 16px;
+  color: #5d5f6d;
+}
+.expertise__card-wrap {
+  display: flex;
+  width: 515px;
+  background-color: #ffffff;
+  margin-bottom: 12px;
+}
+.expertise__card {
+  margin: 0;
+}
+
+.expertise__card-wrap-b {
+  display: flex;
+  background-color: white;
+  width: 515px;
+  margin-bottom: 1px;
+}
+
+.vision__wrapper {
+  width: 1273px;
+}
+.vision__sup-title {
+  font-size: 14px;
+  color: #000000;
+}
+.vision__title {
+  width: 600px;
+  font-size: 36px;
+  color: #232536;
+}
+.vision__text {
+  width: 620px;
+  font-size: 16px;
+  color: #232536;
+}
+
+.team__card-imgs {
+  width: 1310px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.login__wrapper {
+  position: relative;
+  background-color: #666dff;
+  width: 1281px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.login__img {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+}
+.login__wrap-text {
+  margin-top: 96px;
+}
+.login__sup-title {
+  margin-top: 96px;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.login__title {
+  margin-top: 13px;
+  width: 488px;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+.login__input {
+  width: 454px;
+  height: 64px;
+  text-align: start;
+  border: none;
+}
+.login__input:focus {
+  outline: none;
+}/*# sourceMappingURL=company.css.map */

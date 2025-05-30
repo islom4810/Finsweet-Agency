@@ -1,0 +1,224 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.home {
+  background-color: #232536;
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+  }
+  &__navbar-menu {
+    display: flex;
+    list-style-type: none;
+    gap: 52px;
+    color: white;
+  }
+}
+.headline {
+  margin-top: 96px;
+  &__img {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__sup-title {
+    font-size: 14px;
+    color: #000000;
+  }
+  &__title {
+    margin-top: 20px;
+    width: 600px;
+    font-size: 48px;
+    color: #232536;
+  }
+  &__text {
+    font-size: 16px;
+    color: #232536;
+    width: 719px;
+  }
+}
+.card-imgs {
+  display: flex;
+  gap: 12px;
+  &__behind-img {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+  }
+  &-wrapper {
+    position: relative;
+  }
+}
+.story {
+  margin-top: 96px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__cards {
+    width: 550px;
+  }
+  &__card-two {
+    background-color: #ffd3af91;
+    width: 624px;
+  }
+  &__cards-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 400px;
+  }
+  &__sup-title {
+    font-size: 16px;
+    color: #232536;
+  }
+  &__title {
+    font-size: 36px;
+    color: #232536;
+  }
+  &__text {
+    font-size: 16px;
+    color: #232536;
+  }
+  &-card {
+    width: 138px;
+  }
+}
+.card {
+  &-title {
+    font-size: 36px;
+    color: #232536;
+    margin-bottom: 8px;
+  }
+  &-text {
+    font-size: 16px;
+    color: #232536;
+    margin: 0;
+  }
+}
+.logo {
+  &__wrapper {
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+  }
+}
+.expertise {
+  margin-bottom: 96px;
+  &__cards-wrapper {
+    background-color: #ecf8f9;
+    display: flex;
+    justify-content: center;
+  }
+  &__card-wrapper {
+    width: 624px;
+  }
+  &__sup-title {
+    font-size: 14px;
+    color: #000000;
+  }
+  &__title {
+    width: 622px;
+    font-size: 48px;
+    color: #232536;
+  }
+  &__card-title {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 8px;
+  }
+  &__card-text {
+    width: 303px;
+    font-size: 14px;
+    color: #5d5f6d;
+  }
+  &__text {
+    font-size: 16px;
+    color: #5d5f6d;
+  }
+  &__card-wrap {
+    display: flex;
+    width: 515px;
+    background-color: #ffffff;
+    margin-bottom: 12px;
+  }
+  &__card {
+    margin: 0;
+  }
+}
+.expertise__card-wrap-b {
+  display: flex;
+  background-color: white;
+  width: 515px;
+  margin-bottom: 1px;
+}
+.vision {
+  &__wrapper {
+    width: 1273px;
+  }
+  &__sup-title {
+    font-size: 14px;
+    color: #000000;
+  }
+  &__title {
+    width: 600px;
+    font-size: 36px;
+    color: #232536;
+  }
+  &__text {
+    width: 620px;
+    font-size: 16px;
+    color: #232536;
+  }
+}
+.team__card-imgs {
+  width: 1310px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.login {
+  &__wrapper {
+    position: relative;
+    background-color: #666dff;
+    width: 1281px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__img{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+  }
+  &__wrap-text{
+    margin-top: 96px;
+  }
+ &__sup-title{
+  margin-top: 96px; 
+  font-size: 14px;
+  color: #FFFFFF;
+ }
+ &__title{
+  margin-top: 13px;
+  width: 488px;
+  font-size: 36px;
+  color: #FFFFFF;
+ }
+ &__input{
+  width: 454px;
+  height: 64px;
+  text-align: start;
+  border: none;
+ }
+&__input:focus{
+  outline: none;
+}
+
+}

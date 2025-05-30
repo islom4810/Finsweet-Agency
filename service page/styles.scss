@@ -119,12 +119,18 @@ $process-font-size: 14px;
 .informition {
   padding-bottom: 96px;
 }
+.main__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 161px;
+}
 .process {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   &__wrapper {
     position: relative;
-  }
-  &__wrap-text {
-    width: 1280px;
   }
   &__sup-title {
     font-size: 14px;
@@ -145,25 +151,80 @@ $process-font-size: 14px;
     top: 15%;
     right: 10%;
   }
-  &__wrap,
-  &__wrap-two,
-  &__wrap-three,
-  &__wrap-four,
-  &__wrap-five,
-  &__wrap-six {
-    display: flex;
-    gap: 10px;
-    width: 395px;
-    height: 164px;
-    border: 0.1px solid #2325362b;
-    border-right-style: dashed;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__wrapper {
+    margin: 0;
   }
-  &-container {
+  &__bottom-img {
+    display: flex;
+    margin: 0;
+  }
+  &__wrap-text {
+    width: 395px;
+    border: 1px solid #2325362b;
+    display: flex;
+  }
+  .cards-container {
+    gap: 48px;
+    width: 1480px;
     display: flex;
     flex-wrap: wrap;
-    gap: 48px;
+    margin-bottom: 96px;
   }
-  &__wrap-top{
-    margin: 0;
+  &__title {
+    margin-left: 16px;
+    margin-top: 30px;
+    margin-bottom: 6px;
+    font-size: 16px;
+    color: #232536;
+  }
+  &__text {
+    margin-left: 16px;
+    width: 289px;
+    font-size: 16px;
+    color: #232536;
+    margin-bottom: 28px;
+  }
+}
+.login {
+  &__wrapper {
+    position: relative;
+    background-color: #666dff;
+    width: 1281px;
+    display: flex;
+    justify-self: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__wrap-text{
+    margin-top: 96px;
+  }
+  &__img {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+  }
+  &__sup-title {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  &__title {
+    margin-top: 13px;
+    width: 488px;
+    font-size: 36px;
+    color: #ffffff;
+  }
+  &__input {
+    width: 454px;
+    height: 64px;
+    text-align: start;
+    border: none;
+  }
+  &__input:focus {
+    outline: none;
   }
 }
